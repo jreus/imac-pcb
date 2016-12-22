@@ -1,0 +1,547 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino
+LIBS:imac
+LIBS:jack_3p
+LIBS:imac-pcb-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ARDUINO_MICRO P?
+U 1 1 585B9FD9
+P 8700 2275
+F 0 "P?" H 8700 3175 50  0000 C CNN
+F 1 "ARDUINO_MICRO" V 8700 2275 50  0000 C CNN
+F 2 "" H 8700 1175 50  0000 C CNN
+F 3 "" H 8700 1175 50  0000 C CNN
+	1    8700 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_3P J?
+U 1 1 585B9CAB
+P 1500 1250
+F 0 "J?" H 1200 1000 60  0000 C CNN
+F 1 "STEREO_OUT1" H 1350 1500 60  0000 C CNN
+F 2 "" H 1450 1250 60  0000 C CNN
+F 3 "" H 1450 1250 60  0000 C CNN
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_3P J?
+U 1 1 585B9CDD
+P 1500 2050
+F 0 "J?" H 1200 1800 60  0000 C CNN
+F 1 "STEREO_OUT2" H 1350 2300 60  0000 C CNN
+F 2 "" H 1450 2050 60  0000 C CNN
+F 3 "" H 1450 2050 60  0000 C CNN
+	1    1500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_3P J?
+U 1 1 585B9D1D
+P 1500 5100
+F 0 "J?" H 1200 4850 60  0000 C CNN
+F 1 "COIL_IN" H 1350 5350 60  0000 C CNN
+F 2 "" H 1450 5100 60  0000 C CNN
+F 3 "" H 1450 5100 60  0000 C CNN
+	1    1500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SCREW_TERMINAL_X2 P?
+U 1 1 585BA240
+P 1700 2650
+F 0 "P?" H 1700 2800 50  0000 C CNN
+F 1 "MOD_OUT_L" V 1925 2625 50  0000 C CNN
+F 2 "" H 1600 2600 50  0000 C CNN
+F 3 "" H 1600 2600 50  0000 C CNN
+	1    1700 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SCREW_TERMINAL_X2 P?
+U 1 1 585BA2CB
+P 1700 3200
+F 0 "P?" H 1700 3350 50  0000 C CNN
+F 1 "MOD_OUT_R" V 1925 3175 50  0000 C CNN
+F 2 "" H 1600 3150 50  0000 C CNN
+F 3 "" H 1600 3150 50  0000 C CNN
+	1    1700 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SCREW_TERMINAL_X2 P?
+U 1 1 585BAACF
+P 1700 5700
+F 0 "P?" H 1700 5850 50  0000 C CNN
+F 1 "PIEZO_IN" V 1925 5675 50  0000 C CNN
+F 2 "" H 1600 5650 50  0000 C CNN
+F 3 "" H 1600 5650 50  0000 C CNN
+	1    1700 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L JACK_3P J?
+U 1 1 585BAC10
+P 1500 6300
+F 0 "J?" H 1200 6050 60  0000 C CNN
+F 1 "PEDAL_IN" H 1350 6550 60  0000 C CNN
+F 2 "" H 1450 6300 60  0000 C CNN
+F 3 "" H 1450 6300 60  0000 C CNN
+	1    1500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DG2525 U1
+U 1 1 585BC828
+P 4600 5150
+F 0 "U1" H 4550 5375 39  0000 L CNN
+F 1 "DG2525" H 4525 5425 28  0000 L CNN
+F 2 "" H 4600 5250 60  0001 C CNN
+F 3 "" H 4600 5250 60  0001 C CNN
+	1    4600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DG2525 U1
+U 2 1 585BCA0E
+P 6500 5150
+F 0 "U1" H 6450 5375 39  0000 L CNN
+F 1 "DG2525" H 6425 5425 28  0000 L CNN
+F 2 "" H 6500 5250 60  0001 C CNN
+F 3 "" H 6500 5250 60  0001 C CNN
+	2    6500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L STD30NF06L Q?
+U 1 1 585C2A75
+P 4550 3950
+F 0 "Q?" H 4850 4000 50  0000 R CNN
+F 1 "STD30NF06L" H 5200 3900 50  0000 R CNN
+F 2 "" H 4750 4050 50  0000 C CNN
+F 3 "" H 4550 3950 50  0000 C CNN
+	1    4550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROBE P1
+U 1 1 585C2EDF
+P 2900 700
+F 0 "P1" H 2910 820 50  0000 C CNN
+F 1 "PROBE1" V 3010 640 50  0000 C CNN
+F 2 "" H 2900 700 50  0000 C CNN
+F 3 "" H 2900 700 50  0000 C CNN
+	1    2900 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROBE P2
+U 1 1 585C2F25
+P 3500 700
+F 0 "P2" H 3510 820 50  0000 C CNN
+F 1 "PROBE2" V 3610 640 50  0000 C CNN
+F 2 "" H 3500 700 50  0000 C CNN
+F 3 "" H 3500 700 50  0000 C CNN
+	1    3500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P3
+U 1 1 585C5766
+P 3500 1800
+F 0 "P3" H 3500 2100 50  0000 C CNN
+F 1 "INPUTS" V 3600 1800 50  0000 C CNN
+F 2 "" H 3500 1800 50  0000 C CNN
+F 3 "" H 3500 1800 50  0000 C CNN
+	1    3500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X12_PATCH P?
+U 1 1 585C5BAE
+P 4150 1500
+F 0 "P?" H 4150 2200 50  0000 C CNN
+F 1 "PATCHBAY_IO" H 4175 825 50  0000 C CNN
+F 2 "" H 4150 300 50  0000 C CNN
+F 3 "" H 4150 300 50  0000 C CNN
+	1    4150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L POWER_TERMINAL_X3 P?
+U 1 1 585C6D54
+P 10350 4650
+F 0 "P?" H 10350 4850 50  0000 C CNN
+F 1 "POWER_TERMINAL_X3" V 10575 4650 50  0000 C CNN
+F 2 "" H 10250 4650 50  0000 C CNN
+F 3 "" H 10250 4650 50  0000 C CNN
+	1    10350 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585C71FB
+P 9900 4950
+F 0 "#PWR?" H 9900 4700 50  0001 C CNN
+F 1 "GND" H 9900 4800 50  0000 C CNN
+F 2 "" H 9900 4950 50  0000 C CNN
+F 3 "" H 9900 4950 50  0000 C CNN
+	1    9900 4950
+	1    0    0    -1  
+$EndComp
+Text Label 9900 4650 2    47   ~ 0
+5V_RAW
+Text Label 9900 4550 2    47   ~ 0
+12V_RAW
+Text Label 3150 1600 2    47   ~ 0
+IN1
+Text Label 3150 1700 2    47   ~ 0
+IN2
+Text Label 3150 1800 2    47   ~ 0
+IN3
+Text Label 3150 1900 2    47   ~ 0
+IN4
+Text Label 3150 2000 2    47   ~ 0
+IN5
+$Comp
+L GND #PWR?
+U 1 1 585C7673
+P 3200 1150
+F 0 "#PWR?" H 3200 900 50  0001 C CNN
+F 1 "GND" H 3200 1000 50  0000 C CNN
+F 2 "" H 3200 1150 50  0000 C CNN
+F 3 "" H 3200 1150 50  0000 C CNN
+	1    3200 1150
+	1    0    0    -1  
+$EndComp
+Text Label 2650 700  2    47   ~ 0
+PB1
+Text Label 3250 700  2    47   ~ 0
+PB2
+Text Label 3850 1150 2    47   ~ 0
+IN1
+Text Label 3850 1250 2    47   ~ 0
+IN2
+Text Label 3850 1350 2    47   ~ 0
+IN3
+Text Label 3850 1450 2    47   ~ 0
+IN4
+Text Label 3850 1550 2    47   ~ 0
+IN5
+Text Label 3850 950  2    47   ~ 0
+PB1
+Text Label 3850 1050 2    47   ~ 0
+PB2
+Text Label 3850 1650 2    47   ~ 0
+PIEZO
+Text Label 3850 1750 2    47   ~ 0
+COIL
+$Comp
+L GND #PWR?
+U 1 1 585C869A
+P 3850 2250
+F 0 "#PWR?" H 3850 2000 50  0001 C CNN
+F 1 "GND" H 3850 2100 50  0000 C CNN
+F 2 "" H 3850 2250 50  0000 C CNN
+F 3 "" H 3850 2250 50  0000 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+Text Label 4550 950  0    47   ~ 0
+OUTA
+Text Label 4550 1350 0    47   ~ 0
+OUTB
+Text Label 4550 1750 0    47   ~ 0
+CTRL_LED1
+Text Label 4550 1850 0    47   ~ 0
+CTRL_LED2
+Text Label 4550 1250 0    47   ~ 0
+OUTA_LOW_Z
+Text Label 4550 1650 0    47   ~ 0
+OUTB_LOW_Z
+$Comp
+L GND #PWR?
+U 1 1 585C923C
+P 4500 2250
+F 0 "#PWR?" H 4500 2000 50  0001 C CNN
+F 1 "GND" H 4500 2100 50  0000 C CNN
+F 2 "" H 4500 2250 50  0000 C CNN
+F 3 "" H 4500 2250 50  0000 C CNN
+	1    4500 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 4750 0    47   ~ 0
+Power Conditioning\n
+Text Notes 3500 2850 0    47   ~ 0
+Channel Panning, Volume, and Filter
+Text Notes 2325 5175 0    47   ~ 0
+Input circuit for Coil & Piezo
+$Comp
+L CONN_03X06 P?
+U 1 1 585C9BA9
+P 5300 1050
+F 0 "P?" H 5300 1350 50  0000 C CNN
+F 1 "PATCHBAY_A" H 5300 650 50  0000 C CNN
+F 2 "" H 5300 1050 50  0000 C CNN
+F 3 "" H 5300 1050 50  0000 C CNN
+	1    5300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_03X06 P?
+U 1 1 585C9C04
+P 5300 1900
+F 0 "P?" H 5300 2200 50  0000 C CNN
+F 1 "PATCHBAY_B" H 5300 1500 50  0000 C CNN
+F 2 "" H 5300 1900 50  0000 C CNN
+F 3 "" H 5300 1900 50  0000 C CNN
+	1    5300 1900
+	1    0    0    -1  
+$EndComp
+Text Label 5600 850  0    47   ~ 0
+SWA_COM
+Text Label 5600 950  0    47   ~ 0
+SWA_NC
+Text Label 5600 1050 0    47   ~ 0
+SWA_NO
+Text Label 5600 1150 0    47   ~ 0
+SWA_CTRL
+Text Label 5600 1250 0    47   ~ 0
+MODA_SIG
+Text Label 5600 1350 0    47   ~ 0
+MODA_CTRL
+Wire Wire Line
+	9900 4950 9900 4750
+Wire Wire Line
+	9900 4750 10100 4750
+Wire Wire Line
+	9900 4650 10100 4650
+Wire Wire Line
+	9900 4550 10100 4550
+Wire Wire Line
+	3150 2000 3300 2000
+Wire Wire Line
+	3150 1900 3300 1900
+Wire Wire Line
+	3150 1800 3300 1800
+Wire Wire Line
+	3150 1700 3300 1700
+Wire Wire Line
+	3150 1600 3300 1600
+Wire Wire Line
+	2900 900  2900 1050
+Wire Wire Line
+	2900 1050 3500 1050
+Wire Wire Line
+	3500 1050 3500 900 
+Wire Wire Line
+	3200 1150 3200 1050
+Connection ~ 3200 1050
+Wire Wire Line
+	2650 700  2750 700 
+Wire Wire Line
+	3250 700  3350 700 
+Wire Wire Line
+	3850 1850 3850 2250
+Wire Wire Line
+	3850 2050 4000 2050
+Wire Wire Line
+	4000 1950 3850 1950
+Connection ~ 3850 2050
+Wire Wire Line
+	4000 1850 3850 1850
+Connection ~ 3850 1950
+Wire Wire Line
+	3850 1750 4000 1750
+Wire Wire Line
+	3850 1650 4000 1650
+Wire Wire Line
+	3850 1550 4000 1550
+Wire Wire Line
+	3850 1450 4000 1450
+Wire Wire Line
+	4000 1350 3850 1350
+Wire Wire Line
+	4000 1250 3850 1250
+Wire Wire Line
+	4000 1150 3850 1150
+Wire Wire Line
+	4000 1050 3850 1050
+Wire Wire Line
+	4000 950  3850 950 
+Wire Wire Line
+	4300 950  4550 950 
+Wire Wire Line
+	4300 1050 4450 1050
+Wire Wire Line
+	4450 950  4450 1150
+Connection ~ 4450 950 
+Wire Wire Line
+	4450 1150 4300 1150
+Connection ~ 4450 1050
+Wire Wire Line
+	4300 1250 4550 1250
+Wire Wire Line
+	4300 1350 4550 1350
+Wire Wire Line
+	4300 1450 4450 1450
+Wire Wire Line
+	4450 1350 4450 1550
+Connection ~ 4450 1350
+Wire Wire Line
+	4450 1550 4300 1550
+Connection ~ 4450 1450
+Wire Wire Line
+	4300 1650 4550 1650
+Wire Wire Line
+	4300 1750 4550 1750
+Wire Wire Line
+	4300 1850 4550 1850
+Wire Wire Line
+	4300 2050 4500 2050
+Wire Wire Line
+	4500 1950 4500 2250
+Wire Wire Line
+	4300 1950 4500 1950
+Connection ~ 4500 2050
+Wire Wire Line
+	5150 850  5600 850 
+Connection ~ 5450 850 
+Connection ~ 5300 850 
+Wire Wire Line
+	5150 950  5600 950 
+Connection ~ 5450 950 
+Connection ~ 5300 950 
+Wire Wire Line
+	5150 1050 5600 1050
+Connection ~ 5450 1050
+Connection ~ 5300 1050
+Wire Wire Line
+	5150 1150 5600 1150
+Connection ~ 5300 1150
+Connection ~ 5450 1150
+Wire Wire Line
+	5150 1250 5600 1250
+Connection ~ 5300 1250
+Connection ~ 5450 1250
+Wire Wire Line
+	5150 1350 5600 1350
+Connection ~ 5450 1350
+Connection ~ 5300 1350
+Text Label 5600 1700 0    47   ~ 0
+SWB_COM
+Text Label 5600 1800 0    47   ~ 0
+SWB_NC
+Text Label 5600 1900 0    47   ~ 0
+SWB_NO
+Text Label 5600 2000 0    47   ~ 0
+SWB_CTRL
+Text Label 5600 2100 0    47   ~ 0
+MODB_SIG
+Text Label 5600 2200 0    47   ~ 0
+MODB_CTRL
+Wire Wire Line
+	5150 2200 5600 2200
+Wire Wire Line
+	5150 2100 5600 2100
+Wire Wire Line
+	5150 2000 5600 2000
+Wire Wire Line
+	5150 1900 5600 1900
+Wire Wire Line
+	5150 1800 5600 1800
+Wire Wire Line
+	5150 1700 5600 1700
+Connection ~ 5300 2200
+Connection ~ 5450 2200
+Connection ~ 5450 2100
+Connection ~ 5450 2000
+Connection ~ 5450 1900
+Connection ~ 5450 1800
+Connection ~ 5450 1700
+Connection ~ 5300 1700
+Connection ~ 5300 1800
+Connection ~ 5300 1900
+Connection ~ 5300 2000
+Connection ~ 5300 2100
+$Comp
+L GND #PWR?
+U 1 1 585CB7C8
+P 4650 4300
+F 0 "#PWR?" H 4650 4050 50  0001 C CNN
+F 1 "GND" H 4650 4150 50  0000 C CNN
+F 2 "" H 4650 4300 50  0000 C CNN
+F 3 "" H 4650 4300 50  0000 C CNN
+	1    4650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4300 4650 4150
+Text Label 4650 3600 1    47   ~ 0
+MODA_SIG
+Wire Wire Line
+	4650 3750 4650 3600
+$Comp
+L R_Small R?
+U 1 1 585CB9AD
+P 4150 3950
+F 0 "R?" V 4225 3900 50  0000 L CNN
+F 1 "10" V 4150 3925 28  0000 L CNN
+F 2 "" H 4150 3950 50  0000 C CNN
+F 3 "" H 4150 3950 50  0000 C CNN
+	1    4150 3950
+	0    1    1    0   
+$EndComp
+Text Label 3950 3950 2    47   ~ 0
+MODA_CTRL
+Wire Wire Line
+	3950 3950 4050 3950
+Wire Wire Line
+	4250 3950 4350 3950
+Text Notes 4325 3650 2    47   ~ 0
+Buffer, Attenuation, and Bias?
+$EndSCHEMATC

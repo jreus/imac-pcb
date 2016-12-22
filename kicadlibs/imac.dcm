@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_01X05
+D Connector, single row, 01x05
+K connector
+$ENDCMP
+#
+$CMP CONN_02X12
+D Connector, double row, 02x12
+K connector
+$ENDCMP
+#
+$CMP CONN_02X12_PATCH
+D Connector, double row, 02x12
+K connector
+$ENDCMP
+#
+$CMP CONN_03X05
+D Connector, triple row, 03x05
+K connector
+$ENDCMP
+#
+$CMP CONN_03X06
+D Connector, triple row, 03x06
+K connector
+$ENDCMP
+#
+$CMP DG2525
+D Vishay Dual DPDT Analog Switch (16pins)
+K SWITCH DPDT VISHAY
+F Documentation/Vishay-DG2525-Quad-Analog-Switch.pdf
+$ENDCMP
+#
+$CMP POWER_TERMINAL_X3
+D Screw Terminal x03
+K connector screw terminal
+$ENDCMP
+#
+$CMP PROBE
+D Probe Connection (Grounded)
+K probe
+$ENDCMP
+#
+$CMP SCREW_TERMINAL_X2
+D Screw Terminal x03
+K connector screw terminal
+$ENDCMP
+#
+$CMP STD30NF06L
+D ST STD30NF06L N-MOSFET
+K nmos n-mos n-mosfet transistor ST
+F Documentation/STD30NF06L-Mosfet.pdf
+$ENDCMP
+#
+#End Doc Library

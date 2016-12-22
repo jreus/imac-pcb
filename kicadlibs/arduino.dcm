@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ARDUINO_MICRO
+D Arduino Pro Micro
+K arduino microcontroller atmega32u4
+F Documentation/ArduinoMicro_Pinout3.png
+$ENDCMP
+#
+#End Doc Library
