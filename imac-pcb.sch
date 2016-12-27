@@ -113,17 +113,6 @@ F 3 "" H 1600 3150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SCREW_TERMINAL_X2 P?
-U 1 1 585BAACF
-P 1700 5700
-F 0 "P?" H 1700 5850 50  0000 C CNN
-F 1 "PIEZO_IN" V 1925 5675 50  0000 C CNN
-F 2 "" H 1600 5650 50  0000 C CNN
-F 3 "" H 1600 5650 50  0000 C CNN
-	1    1700 5700
-	-1   0    0    1   
-$EndComp
-$Comp
 L JACK_3P J?
 U 1 1 585BAC10
 P 1500 6300
@@ -544,4 +533,17 @@ Wire Wire Line
 	4250 3950 4350 3950
 Text Notes 4325 3650 2    47   ~ 0
 Buffer, Attenuation, and Bias?
+$Comp
+L JACK_3P J?
+U 1 1 58611DEF
+P 1500 5725
+F 0 "J?" H 1200 5475 60  0000 C CNN
+F 1 "PIEZO_IN" H 1350 5975 60  0000 C CNN
+F 2 "" H 1450 5725 60  0000 C CNN
+F 3 "" H 1450 5725 60  0000 C CNN
+	1    1500 5725
+	1    0    0    -1  
+$EndComp
+Text Notes 1225 4500 0    60   ~ 0
+All incoming signals are made to ride on a 2.5V reference voltage. 
 $EndSCHEMATC
