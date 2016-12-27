@@ -49,12 +49,12 @@ $EndDescr
 $Comp
 L ARDUINO_MICRO P?
 U 1 1 585B9FD9
-P 8700 2275
-F 0 "P?" H 8700 3175 50  0000 C CNN
-F 1 "ARDUINO_MICRO" V 8700 2275 50  0000 C CNN
-F 2 "" H 8700 1175 50  0000 C CNN
-F 3 "" H 8700 1175 50  0000 C CNN
-	1    8700 2275
+P 10375 1625
+F 0 "P?" H 10375 2525 50  0000 C CNN
+F 1 "ARDUINO_MICRO" V 10375 1625 50  0000 C CNN
+F 2 "" H 10375 525 50  0000 C CNN
+F 3 "" H 10375 525 50  0000 C CNN
+	1    10375 1625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -181,12 +181,12 @@ $EndComp
 $Comp
 L CONN_01X05 P3
 U 1 1 585C5766
-P 3500 1800
-F 0 "P3" H 3500 2100 50  0000 C CNN
-F 1 "INPUTS" V 3600 1800 50  0000 C CNN
-F 2 "" H 3500 1800 50  0000 C CNN
-F 3 "" H 3500 1800 50  0000 C CNN
-	1    3500 1800
+P 3300 1800
+F 0 "P3" H 3300 2100 50  0000 C CNN
+F 1 "INPUTS" V 3400 1800 50  0000 C CNN
+F 2 "" H 3300 1800 50  0000 C CNN
+F 3 "" H 3300 1800 50  0000 C CNN
+	1    3300 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -226,15 +226,15 @@ Text Label 9900 4650 2    47   ~ 0
 5V_RAW
 Text Label 9900 4550 2    47   ~ 0
 12V_RAW
-Text Label 3150 1600 2    47   ~ 0
+Text Label 2950 1600 2    47   ~ 0
 IN1
-Text Label 3150 1700 2    47   ~ 0
+Text Label 2950 1700 2    47   ~ 0
 IN2
-Text Label 3150 1800 2    47   ~ 0
+Text Label 2950 1800 2    47   ~ 0
 IN3
-Text Label 3150 1900 2    47   ~ 0
+Text Label 2950 1900 2    47   ~ 0
 IN4
-Text Label 3150 2000 2    47   ~ 0
+Text Label 2950 2000 2    47   ~ 0
 IN5
 $Comp
 L GND #PWR?
@@ -266,9 +266,9 @@ PB1
 Text Label 3850 1050 2    47   ~ 0
 PB2
 Text Label 3850 1650 2    47   ~ 0
-PIEZO
+EXT_IN1
 Text Label 3850 1750 2    47   ~ 0
-COIL
+EXT_IN2
 $Comp
 L GND #PWR?
 U 1 1 585C869A
@@ -281,17 +281,13 @@ F 3 "" H 3850 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4550 950  0    47   ~ 0
-OUTA
-Text Label 4550 1350 0    47   ~ 0
-OUTB
-Text Label 4550 1750 0    47   ~ 0
-CTRL_LED1
-Text Label 4550 1850 0    47   ~ 0
-CTRL_LED2
+AUDIO_OUTA
 Text Label 4550 1250 0    47   ~ 0
-OUTA_LOW_Z
+AUDIO_OUTB
+Text Label 4550 1550 0    47   ~ 0
+LED_CTRL1
 Text Label 4550 1650 0    47   ~ 0
-OUTB_LOW_Z
+LED_CTRL2
 $Comp
 L GND #PWR?
 U 1 1 585C923C
@@ -352,15 +348,15 @@ Wire Wire Line
 Wire Wire Line
 	9900 4550 10100 4550
 Wire Wire Line
-	3150 2000 3300 2000
+	2950 2000 3100 2000
 Wire Wire Line
-	3150 1900 3300 1900
+	2950 1900 3100 1900
 Wire Wire Line
-	3150 1800 3300 1800
+	2950 1800 3100 1800
 Wire Wire Line
-	3150 1700 3300 1700
+	2950 1700 3100 1700
 Wire Wire Line
-	3150 1600 3300 1600
+	2950 1600 3100 1600
 Wire Wire Line
 	2900 900  2900 1050
 Wire Wire Line
@@ -413,27 +409,9 @@ Wire Wire Line
 	4450 1150 4300 1150
 Connection ~ 4450 1050
 Wire Wire Line
-	4300 1250 4550 1250
-Wire Wire Line
-	4300 1350 4550 1350
-Wire Wire Line
-	4300 1450 4450 1450
-Wire Wire Line
-	4450 1350 4450 1550
-Connection ~ 4450 1350
-Wire Wire Line
-	4450 1550 4300 1550
-Connection ~ 4450 1450
-Wire Wire Line
-	4300 1650 4550 1650
-Wire Wire Line
-	4300 1750 4550 1750
-Wire Wire Line
-	4300 1850 4550 1850
-Wire Wire Line
 	4300 2050 4500 2050
 Wire Wire Line
-	4500 1950 4500 2250
+	4500 1850 4500 2250
 Wire Wire Line
 	4300 1950 4500 1950
 Connection ~ 4500 2050
@@ -546,4 +524,25 @@ F 3 "" H 1450 5725 60  0000 C CNN
 $EndComp
 Text Notes 1225 4500 0    60   ~ 0
 All incoming signals are made to ride on a 2.5V reference voltage. 
+Wire Wire Line
+	4300 1250 4550 1250
+Wire Wire Line
+	4450 1250 4450 1450
+Wire Wire Line
+	4450 1350 4300 1350
+Wire Wire Line
+	4450 1450 4300 1450
+Connection ~ 4450 1350
+Connection ~ 4450 1250
+Wire Wire Line
+	4300 1550 4550 1550
+Wire Wire Line
+	4300 1650 4550 1650
+Text Label 4550 1750 0    47   ~ 0
+EXT_OUT
+Wire Wire Line
+	4550 1750 4300 1750
+Wire Wire Line
+	4500 1850 4300 1850
+Connection ~ 4500 1950
 $EndSCHEMATC

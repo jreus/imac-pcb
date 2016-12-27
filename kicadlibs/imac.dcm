@@ -25,6 +25,11 @@ D Connector, triple row, 03x06
 K connector
 $ENDCMP
 #
+$CMP CONN_03X07
+D Connector, triple row, 03x06
+K connector
+$ENDCMP
+#
 $CMP DG2525
 D Vishay Dual DPDT Analog Switch (16pins)
 K SWITCH DPDT VISHAY
