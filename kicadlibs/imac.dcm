@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG849
+D Analog Devices SPDT Analog Switch (6 pins)
+K SWITCH SPDT Analog Devices
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG849.pdf
+$ENDCMP
+#
 $CMP CONN_01X05
 D Connector, single row, 01x05
 K connector
@@ -34,6 +40,28 @@ $CMP DG2525
 D Vishay Dual DPDT Analog Switch (16pins)
 K SWITCH DPDT VISHAY
 F Documentation/Vishay-DG2525-Quad-Analog-Switch.pdf
+$ENDCMP
+#
+$CMP DUAL_POT
+D Dual Gang Potentiometer
+K R potentiometer dual gang stereo
+$ENDCMP
+#
+$CMP MCP6004
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP NCP4620-SC-70
+D 150mA low dropout linear regulator, shutdown pin, 2.5V fixed positive output, SC-70-5 package
+K linear regulator ldo fixed positive
+F http://www.onsemi.com/pub_link/Collateral/NCP4620-D.PDF
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
 $ENDCMP
 #
 $CMP POWER_TERMINAL_X3
