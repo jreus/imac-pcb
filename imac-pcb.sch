@@ -95,7 +95,7 @@ L STD30NF06L Q?
 U 1 1 585C2A75
 P 10450 4875
 F 0 "Q?" H 10750 4925 50  0000 R CNN
-F 1 "STD30NF06L" H 11100 4825 50  0000 R CNN
+F 1 "NX3008N***" H 11075 4825 50  0000 R CNN
 F 2 "" H 10650 4975 50  0000 C CNN
 F 3 "" H 10450 4875 50  0000 C CNN
 	1    10450 4875
@@ -433,8 +433,8 @@ $Comp
 L C_Small C?
 U 1 1 5865864C
 P 8200 4775
-F 0 "C?" H 8210 4845 50  0000 L CNN
-F 1 "1u" H 8210 4695 50  0000 L CNN
+F 0 "C?" V 8050 4725 50  0000 L CNN
+F 1 "1u" V 8325 4725 50  0000 L CNN
 F 2 "" H 8200 4775 50  0000 C CNN
 F 3 "" H 8200 4775 50  0000 C CNN
 	1    8200 4775
@@ -578,7 +578,7 @@ L R_Small R?
 U 1 1 5865B6E0
 P 10550 4525
 F 0 "R?" H 10580 4545 50  0000 L CNN
-F 1 "100_OPT" H 10580 4485 50  0000 L CNN
+F 1 "100*" H 10580 4485 50  0000 L CNN
 F 2 "" H 10550 4525 50  0000 C CNN
 F 3 "" H 10550 4525 50  0000 C CNN
 	1    10550 4525
@@ -602,13 +602,13 @@ F 3 "" H 10250 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7050 6300 0    79   ~ 0
-* Resistors are optional. Can be connected with a solder bridge.\n** Trimmer can be swapped for 1meg for higher input impedance
+* Resistors are optional. Can be connected with a solder bridge.\n** Trimmer can be swapped for 1meg for higher input impedance\n*** Replace/Experiment with BC817, and larger base/gate resistors
 $Comp
 L R_Small R?
 U 1 1 5865E840
 P 10050 4875
-F 0 "R?" H 10080 4895 50  0000 L CNN
-F 1 "100*" H 10080 4835 50  0000 L CNN
+F 0 "R?" V 9950 4850 50  0000 L CNN
+F 1 "100***" V 10150 4800 50  0000 L CNN
 F 2 "" H 10050 4875 50  0000 C CNN
 F 3 "" H 10050 4875 50  0000 C CNN
 	1    10050 4875
