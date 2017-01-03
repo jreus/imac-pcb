@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX3008N
+D 30V 350mA N-channel Trench MOSFET
+K nmos n-mos n-mosfet transistor nx-semiconductor
+F http://www.nxp.com/documents/data_sheet/NX3008NBKW.pdf
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+#End Doc Library
