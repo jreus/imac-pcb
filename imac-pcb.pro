@@ -1,4 +1,4 @@
-update=2016 December 22, Thursday 10:27:56
+update=2017 January 03, Tuesday 21:25:06
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,5 @@ LibName29=valves
 LibName30=kicadlibs/arduino
 LibName31=kicadlibs/imac
 LibName32=kicadlibs/jack_3p
+LibName33=kicadlibs/cree
+LibName34=kicadlibs/nxp-semi

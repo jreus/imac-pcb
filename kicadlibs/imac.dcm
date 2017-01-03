@@ -1,5 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V_IN
+K POWER, PWR
+$ENDCMP
+#
+$CMP +2V5_REF
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_IN
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V_SYS
+K POWER, PWR
+$ENDCMP
+#
 $CMP ADG849
 D Analog Devices SPDT Analog Switch (6 pins)
 K SWITCH SPDT Analog Devices
@@ -59,6 +75,11 @@ K linear regulator ldo fixed positive
 F http://www.onsemi.com/pub_link/Collateral/NCP4620-D.PDF
 $ENDCMP
 #
+$CMP PMV48XP
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP POT
 D Potentionmetre
 K R
@@ -74,6 +95,16 @@ D Probe Connection (Grounded)
 K probe
 $ENDCMP
 #
+$CMP PWR_X3
+D Screw Terminal x03
+K connector screw terminal
+$ENDCMP
+#
+$CMP Q_PMOS_GSD
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP SCREW_TERMINAL_X2
 D Screw Terminal x03
 K connector screw terminal
@@ -83,6 +114,12 @@ $CMP STD30NF06L
 D ST STD30NF06L N-MOSFET
 K nmos n-mos n-mosfet transistor ST
 F Documentation/STD30NF06L-Mosfet.pdf
+$ENDCMP
+#
+$CMP UA78M05
+D Positive 0.5A 35V Linear Regulator, Fixed Output 5V, SOT-233-3
+K Voltage Regulator 0.5A Positive
+F http://www.ti.com/lit/ds/symlink/ua78m05.pdf
 $ENDCMP
 #
 #End Doc Library
