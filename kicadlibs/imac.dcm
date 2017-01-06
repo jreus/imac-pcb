@@ -1,25 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP +12V_IN
-K POWER, PWR
-$ENDCMP
-#
-$CMP +2V5_REF
-K POWER, PWR
-$ENDCMP
-#
-$CMP +5V_IN
-K POWER, PWR
-$ENDCMP
-#
-$CMP +5V_SYS
-K POWER, PWR
-$ENDCMP
-#
 $CMP ADG849
 D Analog Devices SPDT Analog Switch (6 pins)
 K SWITCH SPDT Analog Devices
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG849.pdf
+$ENDCMP
+#
+$CMP BOURNS_TRIM
+D Bourns 3386 Plastic Triangle Pin Trimpot and Potentiometer
+K R POT TRIMPOT
 $ENDCMP
 #
 $CMP CONN_01X05
