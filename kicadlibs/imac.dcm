@@ -32,7 +32,7 @@ K connector
 $ENDCMP
 #
 $CMP CONN_03X06
-D Connector, triple row, 03x06
+D Connector, triple row, 03x06, 2.54mm
 K connector
 $ENDCMP
 #
