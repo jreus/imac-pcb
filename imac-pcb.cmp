@@ -1,0 +1,571 @@
+Cmp-Mod V01 Created by PcbNew   date = 2017 January 14, Saturday 15:25:49
+
+BeginCmp
+TimeStamp = 586FD0CB
+Path = /586686DF
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0D1
+Path = /586703C1
+Reference = C2;
+ValeurCmp = 68n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0D7
+Path = /586729EE
+Reference = C3;
+ValeurCmp = 68n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0DD
+Path = /5866F60A
+Reference = C4;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0E3
+Path = /586729D0
+Reference = C5;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0E9
+Path = /586644D7
+Reference = C6;
+ValeurCmp = 220p*;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0EF
+Path = /58670B29
+Reference = C7;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0F5
+Path = /586729F8
+Reference = C8;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD0FB
+Path = /586F5972
+Reference = C9;
+ValeurCmp = 220u;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD101
+Path = /5867A907
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD107
+Path = /5867AA35
+Reference = C11;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD10D
+Path = /5865864C
+Reference = C12;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD113
+Path = /58658D5C
+Reference = C13;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD119
+Path = /586D6FFC
+Reference = D2;
+ValeurCmp = KP-2012LSGC;
+IdModule  = LEDs:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD135
+Path = /585C5BAE
+Reference = P2;
+ValeurCmp = PATCHBAY_IO;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x12;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD13E
+Path = /585C5766
+Reference = P5;
+ValeurCmp = INPUTS;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD14C
+Path = /586DA5D4
+Reference = Q1;
+ValeurCmp = NX3008N***;
+IdModule  = TO_SOT_Packages_SMD:SC-70;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD153
+Path = /586C8329
+Reference = Q2;
+ValeurCmp = PMV48XP;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD15A
+Path = /586D5D5B
+Reference = Q3;
+ValeurCmp = NX3008N***;
+IdModule  = TO_SOT_Packages_SMD:SC-70;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD161
+Path = /586D8838
+Reference = Q4;
+ValeurCmp = NX3008N***;
+IdModule  = TO_SOT_Packages_SMD:SC-70;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD1A3
+Path = /586DA5C0
+Reference = R11;
+ValeurCmp = 27;
+IdModule  = Resistors_SMD:R_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD1AF
+Path = /586D4EBD
+Reference = R13;
+ValeurCmp = 27;
+IdModule  = Resistors_SMD:R_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD1DF
+Path = /5866A624
+Reference = U1;
+ValeurCmp = MCP6004;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD1F1
+Path = /5865888C
+Reference = U2;
+ValeurCmp = MCP6004;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD1FA
+Path = /5867A3B9
+Reference = U3;
+ValeurCmp = NCP4620;
+IdModule  = TO_SOT_Packages_SMD:SC-70-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 586FD204
+Path = /5865DEEF
+Reference = U4;
+ValeurCmp = ADG849;
+IdModule  = TO_SOT_Packages_SMD:SC-70-6;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716183
+Path = /586680F9
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = Imac:SOD-323F;
+EndCmp
+
+BeginCmp
+TimeStamp = 587161A6
+Path = /586DA5BA
+Reference = D3;
+ValeurCmp = CLP6B-WKW;
+IdModule  = Imac:PLCC6-3in1-SMD-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = 587161C9
+Path = /586D4B78
+Reference = D4;
+ValeurCmp = CLP6B-WKW;
+IdModule  = Imac:PLCC6-3in1-SMD-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = 587161D4
+Path = /585B9D1D
+Reference = J1;
+ValeurCmp = EXT_IN;
+IdModule  = Lumberg:Lumberg_1503_03;
+EndCmp
+
+BeginCmp
+TimeStamp = 587161DF
+Path = /585B9CAB
+Reference = J2;
+ValeurCmp = STEREO_OUT;
+IdModule  = Lumberg:Lumberg_1503_03;
+EndCmp
+
+BeginCmp
+TimeStamp = 587161F3
+Path = /585C2EDF
+Reference = P1;
+ValeurCmp = PROBE1;
+IdModule  = Imac:PSG01546_RCA_Phono_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716207
+Path = /585C2F25
+Reference = P3;
+ValeurCmp = PROBE2;
+IdModule  = Imac:PSG01546_RCA_Phono_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716234
+Path = /585C9BA9
+Reference = P6;
+ValeurCmp = PATCHBAY_A;
+IdModule  = Imac:Socket_Strip_Straight_3x06;
+EndCmp
+
+BeginCmp
+TimeStamp = 5871627D
+Path = /5866AAB7
+Reference = RV1;
+ValeurCmp = 100k;
+IdModule  = Imac:Pot_Bourns_PTV09A-4_Horizontal_Rear_mount;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716290
+Path = /586729A8
+Reference = RV2;
+ValeurCmp = 100k;
+IdModule  = Imac:Pot_Bourns_PTV09A-4_Horizontal_Rear_mount;
+EndCmp
+
+BeginCmp
+TimeStamp = 587162CC
+Path = /58667A5C
+Reference = RV5;
+ValeurCmp = 100k**;
+IdModule  = Imac:Trimpot_Bourns_3386F_Vishay_M63;
+EndCmp
+
+BeginCmp
+TimeStamp = 587162DC
+Path = /586DE7B0
+Reference = RV6;
+ValeurCmp = 100k†;
+IdModule  = Imac:Trimpot_Bourns_Big_Pads_3386F_Vishay_M63;
+EndCmp
+
+BeginCmp
+TimeStamp = 587162EC
+Path = /586DF0DB
+Reference = RV7;
+ValeurCmp = 100k†;
+IdModule  = Imac:Trimpot_Bourns_Big_Pads_3386F_Vishay_M63;
+EndCmp
+
+BeginCmp
+TimeStamp = 587162FF
+Path = /586583AB
+Reference = RV8;
+ValeurCmp = 100k;
+IdModule  = Imac:Pot_Bourns_PTV09A-4_Horizontal_Rear_mount;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716312
+Path = /58658F67
+Reference = RV9;
+ValeurCmp = 100k;
+IdModule  = Imac:Pot_Bourns_PTV09A-4_Horizontal_Rear_mount;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716C0D
+Path = /586FB958
+Reference = P4;
+ValeurCmp = EXT_OUT;
+IdModule  = Imac:TerminalBlock_TE_282834-2-2.54mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 58716C1F
+Path = /586C4845
+Reference = P7;
+ValeurCmp = PWR_X3;
+IdModule  = Imac:TerminalBlock_TE_282834-3-2.54mm_3pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30BE
+Path = /587A2063
+Reference = C14;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30C4
+Path = /587A1F6A
+Reference = C15;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30CA
+Path = /587A2879
+Reference = C16;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30D0
+Path = /587A2973
+Reference = C17;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30D6
+Path = /587A8A6B
+Reference = C18;
+ValeurCmp = 22u;
+IdModule  = Imac:2917C;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30DC
+Path = /587A3196
+Reference = C19;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30E2
+Path = /587A3291
+Reference = C20;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30E3
+Path = /586689CA
+Reference = R1;
+ValeurCmp = 33k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30E8
+Path = /58667B57
+Reference = R2;
+ValeurCmp = 100**;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30ED
+Path = /58664C46
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30F2
+Path = /5866BA3B
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30F7
+Path = /586729BD
+Reference = R5;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A30FC
+Path = /586643F2
+Reference = R6;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3101
+Path = /58670C5B
+Reference = R7;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3106
+Path = /586729FE
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A310B
+Path = /586DA5E7
+Reference = R9;
+ValeurCmp = 100***;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3110
+Path = /586C362D
+Reference = R10;
+ValeurCmp = 1k5;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3115
+Path = /586D7BA9
+Reference = R12;
+ValeurCmp = 100***;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A311A
+Path = /586586D1
+Reference = R14;
+ValeurCmp = 1meg;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A311F
+Path = /58658E91
+Reference = R15;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3124
+Path = /58658EEE
+Reference = R16;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3129
+Path = /5865E840
+Reference = R17;
+ValeurCmp = 100***;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A312E
+Path = /5865B6E0
+Reference = R18;
+ValeurCmp = 100*;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A313A
+Path = /587AB076
+Reference = SW1;
+ValeurCmp = RESET_SW;
+IdModule  = Imac:EVQ_BUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A3156
+Path = /587AA095
+Reference = U5;
+ValeurCmp = arduino_pro_micro;
+IdModule  = Imac:arduino_pro_micro;
+EndCmp
+
+BeginCmp
+TimeStamp = 587A315E
+Path = /587A1D1D
+Reference = U6;
+ValeurCmp = NCP1117-5;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 587162BC
+Path = /586729B7
+Reference = RV4;
+ValeurCmp = 100k;
+IdModule  = Imac:Dual_Pot_Bourns_3301H-00X;
+EndCmp
+
+BeginCmp
+TimeStamp = 587162A6
+Path = /5866B511
+Reference = RV3;
+ValeurCmp = 100k;
+IdModule  = Imac:Dual_Pot_Bourns_3301H-00X;
+EndCmp
+
+EndListe
