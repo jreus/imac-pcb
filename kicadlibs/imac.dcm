@@ -52,6 +52,12 @@ D Dual Gang Potentiometer
 K R potentiometer dual gang stereo
 $ENDCMP
 #
+$CMP MCP6002
+D Dual Op amp.
+K Op amp Microchip
+F http://www.farnell.com/datasheets/524878.pdf
+$ENDCMP
+#
 $CMP MCP6004
 D Quad Op amp.
 K AmpliOp
